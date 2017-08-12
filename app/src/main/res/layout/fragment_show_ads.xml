@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+
+    tools:context="roshaan.auctionsystem.Bidder.ShowAds">
+
+    <!-- TODO: Update blank fragment layout -->
+<Spinner
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:id="@+id/showAdCategory"
+    android:layout_marginBottom="10dp"/>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+
+        android:id="@+id/showAdsRecycler"
+        ></android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
